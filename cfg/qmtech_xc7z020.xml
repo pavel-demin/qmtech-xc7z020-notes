@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE project PUBLIC "project" "project.dtd" >
+<project version="1.0" >
+  <set param="PCW::ENET0::PERIPHERAL::ENABLE" value="1" />
+  <set param="PCW::ENET0::ENET0::IO" value="MIO 16 .. 27" />
+  <set param="PCW::ENET0::GRP_MDIO::ENABLE" value="1" />
+  <set param="PCW::ENET0::GRP_MDIO::IO" value="MIO 52 .. 53" />
+  <set param="PCW::GPIO::MIO_GPIO::ENABLE" value="1" />
+  <set param="PCW::GPIO::EMIO_GPIO::ENABLE" value="1" />
+  <set param="PCW::UART0::PERIPHERAL::ENABLE" value="1" />
+  <set param="PCW::UART0::UART0::IO" value="MIO 14 .. 15" />
+  <set param="PCW::USB0::PERIPHERAL::ENABLE" value="1" />
+  <set param="PCW::USB0::RESET::ENABLE" value="1" />
+  <set param="PCW::USB0::RESET::IO" value="MIO 46" />
+  <set param="PCW::SD0::PERIPHERAL::ENABLE" value="1" />
+  <set param="PCW::SD0::SD0::IO" value="MIO 40 .. 45" />
+  <set param="PCW::SD0::GRP_CD::ENABLE" value="1" />
+  <set param="PCW::SD0::GRP_CD::IO" value="MIO 47" />
+  <set param="PCW::SDIO::PERIPHERAL::FREQMHZ" value="10" />
+  <set param="PCW::SPI0::PERIPHERAL::ENABLE" value="1" />
+  <set param="PCW::PRESET::BANK0::VOLTAGE" value="LVCMOS 3.3V" />
+  <set param="PCW::PRESET::BANK1::VOLTAGE" value="LVCMOS 1.8V" />
+  <set param="PCW::UIPARAM::DDR::PARTNO" value="MT41K256M16 RE-125" />
+  <set param="PCW::UIPARAM::DDR::BUS_WIDTH" value="16 Bit" />
+  <set param="PCW::MIO::MIO[14]::PULLUP" value="disabled" />
+  <set param="PCW::MIO::MIO[15]::PULLUP" value="disabled" />
+</project>
