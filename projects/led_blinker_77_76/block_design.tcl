@@ -6,10 +6,6 @@ create_bd_port -dir O adc_spi_sclk
 create_bd_port -dir O adc_spi_sdio
 create_bd_port -dir O adc_spi_cs
 
-create_bd_port -dir O tst_spi_sclk
-create_bd_port -dir O tst_spi_sdio
-create_bd_port -dir O tst_spi_cs
-
 create_bd_port -dir O adc_oe
 
 # Create xlconstant
@@ -39,10 +35,6 @@ cell xilinx.com:ip:processing_system7 ps_0 {
   SPI0_SS_I const_0/dout
   SPI0_SS_O adc_spi_cs
 }
-
-wire ps_0/SPI0_SCLK_O tst_spi_sclk
-wire ps_0/SPI0_MOSI_O tst_spi_sdio
-wire ps_0/SPI0_SS_O tst_spi_cs
 
 # Create port_slicer
 cell pavel-demin:user:port_slicer slice_0 {
