@@ -85,3 +85,22 @@ Ordering ADC board from JLCPCB
 - Select "JLCPCB (PCB/PCBA/Stencil)" and click "Secure Checkout" on the "Shopping Cart" screen
 
 - Select the correct addresses, shipping and payment methods on the checkout screens
+
+Connecting ADC board to QMTECH XC7Z020 board
+-----
+
+Additional required connectors are listed at [this link]({{ "/components/" | prepend: site.baseurl }}).
+
+Resistors R14 and R15 should be unsoldered from the QMTECH XC7Z020 board.
+
+Two 2x25 header strips should be soldered to the QMTECH XC7Z020 board.
+
+One 2x25 socket strip should be soldered to the ADC board.
+
+One 1x2 header strip should be soldered to the ADC board.
+
+One SMA connector should be soldered to the ADC board.
+
+The 2x25 socket strip on the ADC board should be connected to the extension connector JP2 on the QMTECH XC7Z020 board.
+
+The 3.3V and GND pins of the 1x2 header strip on the ADC board should be connected with a double wire to the 3.3V and GND pins of the extension connector JP5 on the QMTECH XC7Z020 board.
