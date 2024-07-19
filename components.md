@@ -23,3 +23,5 @@ Mouser Electronics
  - [2x25 socket strip, SSW-125-01-T-D](https://www.mouser.com/ProductDetail/200-SSW12501TD)
 
  - [SMA connector](https://www.mouser.com/ProductDetail/485-1865)
+
+ - [19x19 mm heat sink](https://www.mouser.com/ProductDetail/774-APF19-19-13CBA01)
