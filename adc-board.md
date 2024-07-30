@@ -104,3 +104,16 @@ One SMA connector should be soldered to the ADC board.
 The 2x25 socket strip on the ADC board should be connected to the extension connector JP2 on the QMTECH XC7Z020 board.
 
 The 3.3V and GND pins of the 1x2 header strip on the ADC board should be connected with a double wire to the 3.3V and GND pins of the extension connector JP5 on the QMTECH XC7Z020 board.
+
+3D printable enclosure
+-----
+
+This 3D printable enclosure is designed by Simon S53ZO using [OpenSCAD](https://openscad.org) and [YAPP_Box](https://github.com/mrWheel/YAPP_Box).
+
+The OpenSCAD files for this enclosure can be found in the [qmtech-adc repository](https://github.com/pavel-demin/qmtech-adc/tree/main/enclosures). These OpenSCAD files can be used to modify this enclosure.
+
+A pre-built STL file can be found in the [ADC board release zip file]({{ site.adc-board-release }}). This pre-built STL file can be used to print this enclosure with a 3D printer.
+
+The two parts of this enclosure are shown in the following image:
+
+![enclosure]({{ "/img/enclosure.png" | prepend: site.baseurl }})
