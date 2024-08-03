@@ -77,7 +77,7 @@ cell xilinx.com:ip:util_ds_buf buf_0 {
   IBUF_DS_N adc_dat_n_i
 }
 
-# Create axis_dac
+# Create axis_adc_ddr
 cell pavel-demin:user:axis_adc_ddr adc_0 {
   ADC_DATA_WIDTH 7
 } {
