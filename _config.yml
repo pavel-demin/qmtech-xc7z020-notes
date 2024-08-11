@@ -4,7 +4,7 @@ description: Notes on the QMTECH ZYNQ XC7Z020 starter kit
 baseurl: /qmtech-xc7z020-notes
 url: https://pavel-demin.github.io
 
-release-image: https://github.com/pavel-demin/qmtech-xc7z020-notes/releases/download/20240614/qmtech-xc7z020-alpine-3.20-armv7-20240614.zip
+release-image: https://github.com/pavel-demin/qmtech-xc7z020-notes/releases/download/20240811/qmtech-xc7z020-alpine-3.20-armv7-20240811.zip
 
 adc-board-release: https://github.com/pavel-demin/qmtech-adc/releases/download/20240614/qmtech-adc-20240614.zip
 
