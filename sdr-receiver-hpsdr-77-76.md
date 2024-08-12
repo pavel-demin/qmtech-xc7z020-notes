@@ -39,6 +39,8 @@ This SDR receiver should work with most of the programs that support the HPSDR/M
 
  - [PowerSDR mRX PS](https://openhpsdr.org/wiki/index.php?title=PowerSDR) that can be downloaded from [this link](https://github.com/TAPR/OpenHPSDR-PowerSDR/releases)
 
+ - Thetis that can be downloaded from [this link](https://github.com/TAPR/OpenHPSDR-Thetis/releases)
+
  - [QUISK](https://james.ahlstrom.name/quisk) with the `hermes/quisk_conf.py` configuration file
 
  - [CW Skimmer Server](https://dxatlas.com/skimserver) and [RTTY Skimmer Server](https://dxatlas.com/RttySkimServ)
