@@ -74,7 +74,7 @@ Ordering ADC board from JLCPCB
 
 - Click "Next" on the "Bill of Materials" screen
 
-- Click "Do not place" the window with a warning about unplaced parts
+- If some parts are not available, then you will need to pre-order them before ordering the assembled ADC board
 
 - Click "Next" on the "Component Placements" screen
 
